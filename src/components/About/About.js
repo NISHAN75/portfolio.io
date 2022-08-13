@@ -132,7 +132,7 @@ const About = () => {
                   <span className="base"></span>
                   <span className="text">
                     <a
-                      href="https://docs.google.com/document/d/1DUd79JxWy552jVI43rZIvHjsQ1AJQwprE9KA5FNefF8/edit?usp=sharing"
+                      href="https://drive.google.com/file/d/1os3otDzOnJWWFjD-eBjQL0iSC-rVFlTF/view?usp=sharing"
                       target="_blank"
                     >
                       My Resume
