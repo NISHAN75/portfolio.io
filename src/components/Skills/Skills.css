@@ -1,0 +1,22 @@
+.text-zone h3 {
+  color: #fff;
+  font-family: "Coolvetica";
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+  }
+  .relative.pt-1 span {
+    font-family: "Coolvetica";
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.box-area h4 {
+  font-family: "Coolvetica";
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}

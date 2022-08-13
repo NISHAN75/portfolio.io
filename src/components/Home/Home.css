@@ -1,0 +1,129 @@
+.home-page {
+  text-align: left;
+  top: 50px;
+  left: 20px;
+  margin: 50px 0px;
+}
+.text-zone {
+  animation: fadeIn 1s 1s backwards;
+}
+.text-zone h1 {
+  color: #fff;
+  font-family: "Coolvetica";
+  font-weight: 500;
+  margin-top: 15px;
+}
+.text-zone h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  color: #08fdd8;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -20px;
+  opacity: 0.6;
+}
+.text-zone h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  color: #08fdd8;
+  font-size: 18px;
+  margin-top: 10px;
+  position: absolute;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+}
+.text-zone img {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 0px;
+  opacity: 0.5;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+}
+.text-zone h2 {
+  color: #8d8d8d;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+.text-zone h2::before{
+  content: '<p>';
+  font-family: 'La Belle Aurore';
+  color: #08fdd8;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -10px;
+  opacity: 0.6;
+}
+.text-zone h2::after{
+  content: '</p>';
+      font-family: 'La Belle Aurore';
+      color: #08fdd8;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+}
+.btn-one {
+  text-decoration: none;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  letter-spacing: 5px;
+  position: relative;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  transform: translate(0px, 10px);
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+}
+.btn-one .btn-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+}
+.btn-one span.bg{
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: -5px;
+  top: 0;
+  background-color: #08fdd8;
+  transform: skewX(-19deg);
+  transition: all .3s ease-in-out;
+  
+}
+.btn-one:hover span.bg{
+  width: 110%;
+}
+.btn-one span.base{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border: 1px solid #08fdd8;
+  box-sizing: border-box;
+}
+.btn-one span.text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #08fdd8;
+}
+.btn-one:hover span.text{
+  color: #1d1d1d;
+}
