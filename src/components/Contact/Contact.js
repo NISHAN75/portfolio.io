@@ -16,6 +16,11 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target.name.value ="";
+    e.target.email.value ="";
+    e.target.subject.value ="";
+    e.target.message.value= "";
+    
 
     emailjs.sendForm('service_vs42f2v', 'template_7lawyqm', form.current, '2---X-G8_ycDjswbq')
       .then((result) => {
@@ -23,6 +28,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+     
   };
   return (
     <section className="home-page grid lg:grid-cols-2  gap-5">
